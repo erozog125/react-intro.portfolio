@@ -1,0 +1,26 @@
+main {
+  width: 100vw;
+  height: 70%;
+  background-color: #282626;
+  display: flex;  
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+section {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;  
+}
+
+img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
