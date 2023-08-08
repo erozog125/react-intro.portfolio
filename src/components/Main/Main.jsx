@@ -10,10 +10,10 @@ export const Main = () => {
   return (
     <main className='w-full h-4/5 flex justify-center'>
       <Section>
-        <Description />       
+        <Profile img = { imgProfile } alt = 'Imagen de perfil'  />
       </Section>
       <Section>
-        <Profile img = { imgProfile } alt = 'Imagen de perfil'  />
+        <Description />       
       </Section>
     </main>
   )

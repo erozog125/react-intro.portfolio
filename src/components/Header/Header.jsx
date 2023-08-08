@@ -1,14 +1,13 @@
 import React from 'react'
 import { Navbar } from '../Navbar/Navbar'
-import './Header.css'
-const img = 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=400'
+const img = '../../../public/logo.jpeg'
 
 export const Header = () => {
   return (
-    <header>
-      <div className="container-header">
-        <img className='img-header' src={img} alt='img-logo' />
-        <h1>Portafolio</h1>
+    <header className='w-full h-1/5 flex justify-center items-center'>
+      <div className="flex justify-center items-center">
+        <img className='w-28 h-28 rounded-full m-4' src={img} alt='img-logo' />
+        <h1 className='text-sky-600 text-4xl font-extrabold mx-4'>Edwin Rozo Gómez</h1>
       </div>
         <Navbar />
     </header>

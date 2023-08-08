@@ -3,6 +3,6 @@ import { NavLink } from 'react-router-dom'
 
 export const ItemNavbar = ({ content, route}) => {
   return (
-    <li><NavLink activeClassName='active-link' className='hover:text-slate-300 shadow-xl' to={route}>{content}</NavLink></li>    
+    <li><NavLink className=' text-yellow-500 text-2xl m-3 hover:text-slate-300 hover:decoration-4' to={route}>{content}</NavLink></li>    
   )
 }
