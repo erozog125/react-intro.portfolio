@@ -1,7 +1,7 @@
 import React from 'react'
-import { Card } from '../../Card/Card'
+import { Card } from '../Card/Card'
 
-export const AboutUs = () => {
+export const AboutMe = () => {
   return (
     <div className='w-full flex justify-center flex-wrap bg-white'>
       <Card

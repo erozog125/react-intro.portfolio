@@ -1,18 +1,26 @@
+import { Routes,Route } from 'react-router-dom'
 import { Footer } from './components/Footer/Footer'
 import { Header } from './components/Header/Header'
-import { Main } from './components/Main/Main'
-import { AboutUs } from './components/Pages/AboutUs/AboutUs'
 import { Home } from './components/Pages/Home/Home'
+import { Projects } from './components/Pages/Projects/Projects'
+import { WorkExperience } from './components/Pages/WorkExperience/WorkExperience'
+import { ContactMe } from './components/Pages/ContactMe/ContactMe'
+import { NotFound } from './components/Pages/NotFound/NotFound'
 
 
 function App() {
-  
+
   return (
     <>
-      <Header />
-      <Home><Main /></Home>
-      <AboutUs />
-      <Footer />            
+    <Header />    
+    <Routes>      
+      <Route path='/' Component={Home} />
+      <Route path='/projects' Component={Projects} />
+      <Route path='/contactme' Component={ContactMe} />
+      <Route path='/workexperience' Component={WorkExperience} />
+      <Route path='*' Component={NotFound} />      
+    </Routes>            
+    <Footer />            
     </>
   )
 }

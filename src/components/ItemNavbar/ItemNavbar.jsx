@@ -1,7 +1,8 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-export const ItemNavbar = ({ content }) => {
+export const ItemNavbar = ({ content, route}) => {
   return (
-    <li><a href="">{content}</a></li>
+    <li><NavLink className='hover:text-slate-300 shadow-xl' to={route}>{content}</NavLink></li>    
   )
 }

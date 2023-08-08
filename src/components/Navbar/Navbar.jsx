@@ -5,9 +5,10 @@ export const Navbar = () => {
   return (
     <nav>
       <ul>
-        <ItemNavbar content = 'Home' />
-        <ItemNavbar content = 'Projects' />
-        <ItemNavbar content = 'Contact US' />        
+        <ItemNavbar route='/' content = 'Home' />
+        <ItemNavbar route='/projects' content = 'Projects' />
+        <ItemNavbar route='/workexperience'content = 'Work Experience' />
+        <ItemNavbar route='/contactme'content = 'Contact Me' />        
       </ul>
     </nav>
   );
