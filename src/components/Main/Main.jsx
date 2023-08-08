@@ -4,7 +4,7 @@ import { Section } from '../Section/Section'
 import { Description } from '../Description/Description'
 import { Profile } from '../Profile/Profile'
 
-const imgProfile = '../../../public/profile.jpeg'
+const imgProfile = 'https://res.cloudinary.com/erpersonalprojects/image/upload/v1691531613/projects/profile_eayooh.jpg'
 
 export const Main = () => {
   return (

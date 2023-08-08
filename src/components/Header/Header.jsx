@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from '../Navbar/Navbar'
-const img = '../../../public/logo.jpeg'
+const img = 'https://res.cloudinary.com/erpersonalprojects/image/upload/v1691531613/projects/logo_k5dv7q.jpg'
 
 export const Header = () => {
   return (
