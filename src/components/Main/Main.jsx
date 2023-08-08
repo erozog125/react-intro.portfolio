@@ -8,7 +8,7 @@ const imgProfile = '../../../public/profile.jpeg'
 
 export const Main = () => {
   return (
-    <main>
+    <main className='w-full h-4/5 flex justify-center'>
       <Section>
         <Description />       
       </Section>

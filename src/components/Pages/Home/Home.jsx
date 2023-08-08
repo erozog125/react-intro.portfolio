@@ -3,12 +3,10 @@ import { Header } from '../../Header/Header'
 import { Main } from '../../Main/Main'
 import { Footer } from '../../Footer/Footer'
 
-export const Home = () => {
+export const Home = ( { children } ) => {
   return (
-    <>      
-      <Header />
-      <Main />
-      <Footer />
+    <>            
+      { children }      
     </>
   )
 }
