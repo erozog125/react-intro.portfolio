@@ -9,7 +9,7 @@ export const Navbar = () => {
         <ItemNavbar route='/projects' content = 'Mis Proyectos' />
         <ItemNavbar route='/workexperience'content = 'Experiencia' />
         <ItemNavbar route='/contactme'content = 'Contáctame' />        
-        <ItemNavbar route='https://www.youtube.com/channel/UCiofAhVDBU6UqJDARXe6gXA'content = 'Mi Canal' />        
+        <ItemNavbar target='_blank' route='https://www.youtube.com/channel/UCiofAhVDBU6UqJDARXe6gXA'content = 'Mi Canal' />        
       </ul>
     </nav>
   );

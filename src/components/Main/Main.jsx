@@ -12,7 +12,7 @@ export const Main = () => {
       <Section>
         <Profile img = { imgProfile } alt = 'Imagen de perfil'  />
       </Section>
-      <Section>
+      <Section >
         <Description />       
       </Section>
     </main>

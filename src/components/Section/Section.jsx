@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const Section = ({ children }) => {
+export const Section = ({ children, styles='w-full bg-white' }) => {
   return (
-    <section className='w-full bg-white'>
+    <section className={styles}>
       { children }
     </section>
   )
