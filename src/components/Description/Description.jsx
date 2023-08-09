@@ -1,7 +1,8 @@
 import React from 'react'
 
-const textDescription = `Soy un apasionado desarrollador frontend con una amplia experiencia en la creación de experiencias digitales cautivadoras y funcionales. Mi objetivo principal es llevar la visión creativa de los proyectos a la realidad, utilizando tecnologías web de vanguardia y las mejores prácticas de desarrollo.
-Como instructor en el SENA de Colombia, he tenido el privilegio de compartir mi conocimiento y experiencia con una nueva generación de talentosos desarrolladores. Mi enfoque educativo se basa en inspirar a mis estudiantes y brindarles las herramientas y habilidades necesarias para convertirse en profesionales exitosos en el campo del desarrollo de software.`
+const textDescription = `Soy un aprendiz apasionado, desarrollador frontend con conocimientos en ReactJss, profesional que se esmera por inspirar a los demás y aprender algo de todos.
+Mi objetivo principal es siempre proponer desde la construcción de nuevos retos, utilizando tecnologías web.
+Como instructor SENA de la regional Quindío, he tenido el privilegio de compartir mi conocimiento y aprender al lado de grandes compañeros y aprendices.`
 
 export const Description = ({ user = '¿Quién soy?', description = textDescription  }) => {
   return (
