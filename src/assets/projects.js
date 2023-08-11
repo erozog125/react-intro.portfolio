@@ -11,7 +11,7 @@ export const projects = [
     title:'Formulario contáctenos',
     description:'Utiizando la app de emailjs y ayudados de React, creamos un formulario de contáctenos',
     img:'https://res.cloudinary.com/erpersonalprojects/image/upload/v1691589859/2_mjdq8j.png',
-    url:'https://sendemailer.netlify.app/'
+    url:'https://sendemail-er.netlify.app'
   },
   {
     id:3,
