@@ -1,7 +1,10 @@
 import React from 'react'
+import { CarouselExperience } from '../../CarouselExperience/CarouselExperience'
 
 export const WorkExperience = () => {
   return (
-    <div>WorkExperience</div>
+    <>
+      <CarouselExperience />
+    </>
   )
 }
