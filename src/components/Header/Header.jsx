@@ -7,7 +7,7 @@ export const Header = () => {
     <header className='w-full h-1/5 flex justify-center items-center'>
       <div className="flex justify-center items-center">
         <img className='w-28 h-28 rounded-full m-4' src={img} alt='img-logo' />
-        <h1 className='text-sky-600 text-4xl font-extrabold mx-4'>Edwin Rozo Gómez</h1>
+        <h1 className='text-sky-600 text-2xl text-center font-extrabold mx-4'>Edwin Rozo Gómez</h1>
       </div>
         <Navbar />
     </header>

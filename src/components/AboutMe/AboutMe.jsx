@@ -3,8 +3,7 @@ import { Card } from '../Card/Card'
 import { projects } from '../../assets/projects'
 import { Section } from '../Section/Section'
 
-export const AboutMe = () => {
-  console.log(projects);
+export const AboutMe = () => {  
   return (
     <Section styles='bg-gray-900 w-full'>
       <h2 className='text-yellow-600 my-2 font-bold text-6xl'>Mis Proyectos</h2>
